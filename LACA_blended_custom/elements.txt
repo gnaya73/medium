@@ -1,0 +1,19 @@
+LATIN AMERICAN CLIMATE ASSESSMENT & DATASET (LACA&D), file created on 28-09-2019
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Martinez, R., J.J. Nieto, A. Freire, E.J.M. van den Besselaar, A.M.G. Klein Tank, G. van der Schrier, 2012.
+Daily dataset for climate extreme analyses in Latin America.
+In preparation.
+Data and metadata available at http://ciifen.knmi.nl
+
+FILE FORMAT:
+
+  01- 05 ELEID: Element identifier
+  07- 156 DESC: Description
+ 158- 172 UNIT: Unit
+
+ELEID,DESC                                                                                                                                                  ,UNIT
+
+  TG1,Mean temperature unknown interval                                                                                                                     ,0.1 &#176;C    
+  TG2,Mean temperature calculated as average of TN and TX                                                                                                   ,0.1 &#176;C    
+  TG3,Mean temperature 20-20 UT                                                                                                                             ,0.1 &#176;C    

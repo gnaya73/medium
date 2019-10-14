@@ -1,0 +1,97 @@
+LATIN AMERICAN CLIMATE ASSESSMENT & DATASET (LACA&D), file created on 28-09-2019
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Martinez, R., J.J. Nieto, A. Freire, E.J.M. van den Besselaar, A.M.G. Klein Tank, G. van der Schrier, 2012.
+Daily dataset for climate extreme analyses in Latin America.
+In preparation
+Data and metadata available at http://ciifen.knmi.nl
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 76 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 78- 81 HGTH   : Station elevation in meters
+ 83- 86 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 88- 95 BEGIN  : Begin date YYYYMMDD
+ 97-104 END    : End date YYYYMMDD
+106-110 PARID  : Participant identifier
+112-162 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,      LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+  553,101182,CAQUENA                                 ,CL,-18:03:15,-69:12:06,4400, TG1,19761004,19930930,    8,DGA-WEB                                           
+  553,101218,PARINACOTA EX ENDESA                    ,CL,-18:12:15,-69:16:06,4420, TG1,19890207,19940101,    8,DGA-WEB                                           
+  557,101198,CHUNGARA AJATA                          ,CL,-18:14:07,-69:11:00,4585, TG1,19910511,19940102,    8,DGA-WEB                                           
+  562,101182,CAQUENA                                 ,CL,-18:03:15,-69:12:06,4400, TG1,19761004,19930930,    8,DGA-WEB                                           
+  562,101218,PARINACOTA EX ENDESA                    ,CL,-18:12:15,-69:16:06,4420, TG1,19890207,19940101,    8,DGA-WEB                                           
+  564,101226,GUALLATIRE                              ,CL,-18:29:54,-69:09:17,4240, TG1,19681220,19710930,    8,DGA-WEB                                           
+  565,101230,CHILCAYA                                ,CL,-18:47:38,-69:05:04,4270, TG1,19711026,19870327,    8,DGA-WEB                                           
+  584,101306,PACOLLO                                 ,CL,-18:10:37,-69:30:33,4185, TG1,19781120,19940102,    8,DGA-WEB                                           
+  585,101310,PUTRE                                   ,CL,-18:11:57,-69:33:37,3545, TG1,19760120,19940102,    8,DGA-WEB                                           
+  585,101318,PUTRE (DCP)                             ,CL,-18:11:42,-69:33:32,3560, TG1,20020117,20050831,    8,DGA-WEB                                           
+  585,101326,MURMUNTANE                              ,CL,-18:21:07,-69:33:07,3550, TG1,19700601,19841122,    8,DGA-WEB                                           
+  587,101310,PUTRE                                   ,CL,-18:11:57,-69:33:37,3545, TG1,19760120,19940102,    8,DGA-WEB                                           
+  587,101318,PUTRE (DCP)                             ,CL,-18:11:42,-69:33:32,3560, TG1,20020117,20050831,    8,DGA-WEB                                           
+  587,101326,MURMUNTANE                              ,CL,-18:21:07,-69:33:07,3550, TG1,19700601,19841122,    8,DGA-WEB                                           
+  588,101322,LLUTA                                   ,CL,-18:24:37,-70:10:09, 290, TG1,19681217,19931226,    8,DGA-WEB                                           
+  588,104338,LA RIVERA                               ,CL,-18:31:42,-70:09:51, 310, TG1,19700714,19731113,    8,DGA-WEB                                           
+  589,101310,PUTRE                                   ,CL,-18:11:57,-69:33:37,3545, TG1,19760120,19940102,    8,DGA-WEB                                           
+  589,101318,PUTRE (DCP)                             ,CL,-18:11:42,-69:33:32,3560, TG1,20020117,20050831,    8,DGA-WEB                                           
+  589,101326,MURMUNTANE                              ,CL,-18:21:07,-69:33:07,3550, TG1,19700601,19841122,    8,DGA-WEB                                           
+  595,101350,ARICA OFICINA                           ,CL,-18:28:39,-70:19:15,  20, TG1,19741231,19891216,    8,DGA-WEB                                           
+  595,101358,U. DEL NORTE                            ,CL,-18:29:00,-70:17:37,  55, TG1,19750502,19850629,    8,DGA-WEB                                           
+  596,101354,AZAPA                                   ,CL,-18:30:56,-70:10:50, 365, TG1,19681217,19940102,    8,DGA-WEB                                           
+  597,101350,ARICA OFICINA                           ,CL,-18:28:39,-70:19:15,  20, TG1,19741231,19891216,    8,DGA-WEB                                           
+  597,101358,U. DEL NORTE                            ,CL,-18:29:00,-70:17:37,  55, TG1,19750502,19850629,    8,DGA-WEB                                           
+  598,101362,EL BUITRE AERODROMO                     ,CL,-18:30:43,-70:17:03, 110, TG1,19850827,19931231,    8,DGA-WEB                                           
+  599,101366,CHACA                                   ,CL,-18:49:01,-70:09:00, 350, TG1,19681218,19791128,    8,DGA-WEB                                           
+  600,101370,CODPA                                   ,CL,-18:49:56,-69:44:38,1870, TG1,19681218,19931230,    8,DGA-WEB                                           
+  602,101378,CUYA                                    ,CL,-19:06:42,-70:07:37, 200, TG1,19651102,19790331,    8,DGA-WEB                                           
+  858,102406,LAS MELOSAS                             ,CL,-33:53:58,-70:11:53,1527, TG1,19780103,19840525,    8,DGA-WEB                                           
+  859,102410,QUELTEHUES                              ,CL,-33:48:59,-70:13:02,1450, TG1,19780110,19781231,    8,DGA-WEB                                           
+  860,102414,EL YESO EMBALSE                         ,CL,-33:40:36,-70:05:19,2475, TG1,19770726,19931231,    8,DGA-WEB                                           
+  868,102446,PIRQUE                                  ,CL,-33:40:25,-70:35:13, 659, TG1,19750710,19931231,    8,DGA-WEB                                           
+  868,104301,EULOGIO SANCHEZ TOBALABA AD.            ,CL,-33:27:16,-70:32:52, 650, TG1,19690101,20131231,    6,Juan Quintana                                     
+  877,102482,RIO MAPOCHO EN LOS ALMENDROS            ,CL,-33:22:13,-70:27:03, 966, TG1,19990803,20050831,    8,DGA-WEB                                           
+  877,102514,QUEBRADA DE MACUL                       ,CL,-33:30:06,-70:30:52, 950, TG1,20030510,20050831,    8,DGA-WEB                                           
+  880,102494,CERRO CALAN                             ,CL,-33:23:42,-70:32:12, 848, TG1,19780103,20050831,    8,DGA-WEB                                           
+  883,102506,CAMPUS SAN JOAQUIN U.C.                 ,CL,-33:29:51,-70:36:51, 570, TG1,19780103,19811016,    8,DGA-WEB                                           
+  885,102482,RIO MAPOCHO EN LOS ALMENDROS            ,CL,-33:22:13,-70:27:03, 966, TG1,19990803,20050831,    8,DGA-WEB                                           
+  885,102514,QUEBRADA DE MACUL                       ,CL,-33:30:06,-70:30:52, 950, TG1,20030510,20050831,    8,DGA-WEB                                           
+  890,102534,RUNGUE EMBALSE                          ,CL,-33:01:10,-70:54:29, 700, TG1,19770711,19931231,    8,DGA-WEB                                           
+  898,102566,MELIPILLA                               ,CL,-33:40:49,-71:11:59, 168, TG1,19710603,19931231,    8,DGA-WEB                                           
+  900,102574,LOS PANGUILES                           ,CL,-33:26:19,-71:01:32, 190, TG1,19801104,19931231,    8,DGA-WEB                                           
+ 1136,103522,RIO FUI EN DESAGE LAGO PIRIHUEICO       ,CL,-39:52:29,-71:53:23, 600, TG1,20030412,20050831,    8,DGA-WEB                                           
+ 1247,103966,LAGO DICKSON                            ,CL,-50:49:22,-73:06:45, 200, TG1,19990625,20050618,    8,DGA-WEB                                           
+ 1253,103990,RIO LAS CHINAS EN CERRO GUIDO           ,CL,-51:03:03,-72:31:01,  75, TG1,20041209,20050831,    8,DGA-WEB                                           
+ 1256,104002,TORRES DEL PAINE                        ,CL,-51:11:03,-72:58:01,  25, TG1,19760122,19931231,    8,DGA-WEB                                           
+ 1282,104106,PUNTA ARENAS                            ,CL,-53:07:24,-70:52:38,   5, TG1,19731116,20050831,    8,DGA-WEB                                           
+ 1286,104122,CANAL DE TRASVASE ESTERO LLAU-LLAU      ,CL,-53:07:30,-70:56:09,  80, TG1,20041213,20050831,    8,DGA-WEB                                           
+ 1292,104146,VILLA TEHUELCHE                         ,CL,-52:26:29,-71:24:08, 190, TG1,19930416,19931231,    8,DGA-WEB                                           
+ 1298,104170,BAHIA SAN FELIPE                        ,CL,-52:52:11,-69:55:55,  10, TG1,19870603,19931031,    8,DGA-WEB                                           
+ 1298,104354,SARITA EN BAHIA SAN FELIPE              ,CL,-52:52:03,-69:54:00,  15, TG1,19820522,19841228,    8,DGA-WEB                                           
+ 1314,104234,RIO ROBALO EN PUERTO WILLIAMS           ,CL,-54:56:49,-67:38:21,  80, TG1,19650909,20131231,    8,DGA-WEB                                           
+ 1323,104285,GUARDIA MARINA ZANARTU PTO WILLIAMS AD. ,CL,-59:55:54,-67:36:56,   0, TG1,19680212,20131231,    6,Juan Quintana                                     
+ 1325,104293,EL LOA CALAMA AD.                       ,CL,-22:29:43,-69:54:16,2293, TG1,19630222,20131231,    6,Juan Quintana                                     
+ 1326,104297,MATAVERI ISLA DE PASCUA AP.             ,CL,-27:09:38,-109:25:37,  47, TG1,19630726,20131231,    6,Juan Quintana                                     
+ 1327,102446,PIRQUE                                  ,CL,-33:40:25,-70:35:13, 659, TG1,19750710,19931231,    8,DGA-WEB                                           
+ 1327,104301,EULOGIO SANCHEZ TOBALABA AD.            ,CL,-33:27:16,-70:32:52, 650, TG1,19690101,20131231,    6,Juan Quintana                                     
+ 1328,104305,PUDAHUEL SANTIAGO                       ,CL,-33:32:31,-70:47:40, 480, TG1,19670106,20131231,    6,Juan Quintana                                     
+ 1329,104310,JUAN FERNANDEZ ESTACION METEOROLOGICA.  ,CL,-33:38:12,-78:50:06,  35, TG1,19600523,20131231,    6,Juan Quintana                                     
+ 1330,104314,MARIA DOLORES LOS ANGELES AD.           ,CL,-37:24:10,-72:25:21, 120, TG1,19600101,20131231,    6,Juan Quintana                                     
+ 1331,104318,CHAITEN AD.                             ,CL,-42:55:52,-72:49:44,  70, TG1,19651102,20050727,    6,Juan Quintana                                     
+ 1332,104322,FUTALEUFU AD.                           ,CL,-43:11:21,-71:50:57, 350, TG1,19610809,20131231,    6,Juan Quintana                                     
+ 1333,104326,ALTO PALENA AD.                         ,CL,-43:36:42,-71:48:19, 281, TG1,19600719,20131231,    6,Juan Quintana                                     
+ 1334,104330,TENIENTE GALLARDO PUERTO NATALES AD.    ,CL,-51:42:26,-72:49:40,  70, TG1,19650122,20131231,    6,Juan Quintana                                     
+ 1335,104334,FUENTES MARTINEZ PORVENIR AD.           ,CL,-53:11:15,-70:19:13,  27, TG1,19850401,20131211,    6,Juan Quintana                                     
+ 1336,101322,LLUTA                                   ,CL,-18:24:37,-70:10:09, 290, TG1,19681217,19931226,    8,DGA-WEB                                           
+ 1336,104338,LA RIVERA                               ,CL,-18:31:42,-70:09:51, 310, TG1,19700714,19731113,    8,DGA-WEB                                           
+ 1337,104342,LAGUNA NEGRA                            ,CL,-33:39:57,-70:06:28,2780, TG1,20030225,20050831,    8,DGA-WEB                                           
+ 1338,104346,GLACIAR ECHAURREN                       ,CL,-33:34:20,-70:07:42,3850, TG1,19990304,20020818,    8,DGA-WEB                                           
+ 1339,104350,GLACIAR TEMPANO                         ,CL,-48:50:05,-74:10:59,  20, TG1,20110501,20110531,    8,DGA-WEB                                           
+ 1340,104170,BAHIA SAN FELIPE                        ,CL,-52:52:11,-69:55:55,  10, TG1,19870603,19931031,    8,DGA-WEB                                           
+ 1340,104354,SARITA EN BAHIA SAN FELIPE              ,CL,-52:52:03,-69:54:00,  15, TG1,19820522,19841228,    8,DGA-WEB                                           

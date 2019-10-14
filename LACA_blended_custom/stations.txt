@@ -1,0 +1,73 @@
+LATIN AMERICAN CLIMATE ASSESSMENT & DATASET (LACA&D), file created on 28-09-2019
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Martinez, R., J.J. Nieto, A. Freire, E.J.M. van den Besselaar, A.M.G. Klein Tank, G. van der Schrier, 2012.
+Daily dataset for climate extreme analyses in Latin America.
+In preparation
+Data and metadata available at http://ciifen.knmi.nl
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 46 STANAME: Station name
+ 48- 49 CN     : Country code (ISO3116 country codes)
+ 51- 59 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 61- 69 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 71- 74 HGTH   : Station elevation in meters
+
+STAID,STANAME                                 ,CN,      LAT,      LON,HGHT
+
+  553,CAQUENA                                 ,CL,-18:03:15,-69:12:06,4400
+  557,CHUNGARA AJATA                          ,CL,-18:14:07,-69:11:00,4585
+  562,PARINACOTA EX ENDESA                    ,CL,-18:12:15,-69:16:06,4420
+  564,GUALLATIRE                              ,CL,-18:29:54,-69:09:17,4240
+  565,CHILCAYA                                ,CL,-18:47:38,-69:05:04,4270
+  584,PACOLLO                                 ,CL,-18:10:37,-69:30:33,4185
+  585,PUTRE                                   ,CL,-18:11:57,-69:33:37,3545
+  587,PUTRE (DCP)                             ,CL,-18:11:42,-69:33:32,3560
+  588,LLUTA                                   ,CL,-18:24:37,-70:10:09, 290
+  589,MURMUNTANE                              ,CL,-18:21:07,-69:33:07,3550
+  595,ARICA OFICINA                           ,CL,-18:28:39,-70:19:15,  20
+  596,AZAPA                                   ,CL,-18:30:56,-70:10:50, 365
+  597,U. DEL NORTE                            ,CL,-18:29:00,-70:17:37,  55
+  598,EL BUITRE AERODROMO                     ,CL,-18:30:43,-70:17:03, 110
+  599,CHACA                                   ,CL,-18:49:01,-70:09:00, 350
+  600,CODPA                                   ,CL,-18:49:56,-69:44:38,1870
+  602,CUYA                                    ,CL,-19:06:42,-70:07:37, 200
+  858,LAS MELOSAS                             ,CL,-33:53:58,-70:11:53,1527
+  859,QUELTEHUES                              ,CL,-33:48:59,-70:13:02,1450
+  860,EL YESO EMBALSE                         ,CL,-33:40:36,-70:05:19,2475
+  868,PIRQUE                                  ,CL,-33:40:25,-70:35:13, 659
+  877,RIO MAPOCHO EN LOS ALMENDROS            ,CL,-33:22:13,-70:27:03, 966
+  880,CERRO CALAN                             ,CL,-33:23:42,-70:32:12, 848
+  883,CAMPUS SAN JOAQUIN U.C.                 ,CL,-33:29:51,-70:36:51, 570
+  885,QUEBRADA DE MACUL                       ,CL,-33:30:06,-70:30:52, 950
+  890,RUNGUE EMBALSE                          ,CL,-33:01:10,-70:54:29, 700
+  898,MELIPILLA                               ,CL,-33:40:49,-71:11:59, 168
+  900,LOS PANGUILES                           ,CL,-33:26:19,-71:01:32, 190
+ 1136,RIO FUI EN DESAGE LAGO PIRIHUEICO       ,CL,-39:52:29,-71:53:23, 600
+ 1247,LAGO DICKSON                            ,CL,-50:49:22,-73:06:45, 200
+ 1253,RIO LAS CHINAS EN CERRO GUIDO           ,CL,-51:03:03,-72:31:01,  75
+ 1256,TORRES DEL PAINE                        ,CL,-51:11:03,-72:58:01,  25
+ 1282,PUNTA ARENAS                            ,CL,-53:07:24,-70:52:38,   5
+ 1286,CANAL DE TRASVASE ESTERO LLAU-LLAU      ,CL,-53:07:30,-70:56:09,  80
+ 1292,VILLA TEHUELCHE                         ,CL,-52:26:29,-71:24:08, 190
+ 1298,BAHIA SAN FELIPE                        ,CL,-52:52:11,-69:55:55,  10
+ 1314,RIO ROBALO EN PUERTO WILLIAMS           ,CL,-54:56:49,-67:38:21,  80
+ 1323,GUARDIA MARINA ZANARTU PTO WILLIAMS AD. ,CL,-59:55:54,-67:36:56,   0
+ 1325,EL LOA CALAMA AD.                       ,CL,-22:29:43,-69:54:16,2293
+ 1326,MATAVERI ISLA DE PASCUA AP.             ,CL,-27:09:38,-109:25:37,  47
+ 1327,EULOGIO SANCHEZ TOBALABA AD.            ,CL,-33:27:16,-70:32:52, 650
+ 1328,PUDAHUEL SANTIAGO                       ,CL,-33:32:31,-70:47:40, 480
+ 1329,JUAN FERNANDEZ ESTACION METEOROLOGICA.  ,CL,-33:38:12,-78:50:06,  35
+ 1330,MARIA DOLORES LOS ANGELES AD.           ,CL,-37:24:10,-72:25:21, 120
+ 1331,CHAITEN AD.                             ,CL,-42:55:52,-72:49:44,  70
+ 1332,FUTALEUFU AD.                           ,CL,-43:11:21,-71:50:57, 350
+ 1333,ALTO PALENA AD.                         ,CL,-43:36:42,-71:48:19, 281
+ 1334,TENIENTE GALLARDO PUERTO NATALES AD.    ,CL,-51:42:26,-72:49:40,  70
+ 1335,FUENTES MARTINEZ PORVENIR AD.           ,CL,-53:11:15,-70:19:13,  27
+ 1336,LA RIVERA                               ,CL,-18:31:42,-70:09:51, 310
+ 1337,LAGUNA NEGRA                            ,CL,-33:39:57,-70:06:28,2780
+ 1338,GLACIAR ECHAURREN                       ,CL,-33:34:20,-70:07:42,3850
+ 1339,GLACIAR TEMPANO                         ,CL,-48:50:05,-74:10:59,  20
+ 1340,SARITA EN BAHIA SAN FELIPE              ,CL,-52:52:03,-69:54:00,  15
